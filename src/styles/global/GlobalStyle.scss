@@ -15,13 +15,7 @@ $secondary: #F6F6F6;
 li{
   list-style-type: none;
 }
-a{
-  color: $primary;
-  text-decoration: none;
-  &:active{
-    text-decoration: underline;
-  }
-}
+
 
 img{
   object-fit: cover;
