@@ -1,0 +1,39 @@
+.collapse {
+  margin: auto;
+  margin-bottom: 2rem;
+  width: 80%;
+}
+.header {
+  background-color: #ff6060;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.content {
+  background-color: #F6F6F6;
+  margin-top: -2px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  p {
+    color: #ff6060;
+    font-size: 18px;
+  }
+  padding: 10px;
+}
+
+.open .content {
+  max-height: 500px;
+}
+
+.checked {
+  font-size: 20px;
+  margin-right: 1rem;
+  transition: transform 0.3s ease-in-out;
+}
+.open .checked {
+  transform: rotate(180deg);
+}

@@ -1,0 +1,46 @@
+.cartContainer {
+  background-color: #F6F6F6;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 2rem 3rem;
+  border-radius: 20px;
+}
+.cartContainer .carts {
+  padding: 4rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+  justify-content: center;
+  align-items: center;
+}
+.cartContainer .carts .cart {
+  position: relative;
+  width: 25vw;
+  height: 25vw;
+}
+.cartContainer .carts .cart .cartImage {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+.cartContainer .carts .cart::before {
+  cursor: pointer;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25vw;
+  height: 25vw;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.8));
+  border-radius: 20px;
+}
+.cartContainer .carts .cart h2 {
+  position: absolute;
+  font-size: 18px;
+  top: 80%;
+  left: 5%;
+  color: white;
+  transform: translate(0, -50%);
+}/*# sourceMappingURL=listofcart.css.map */

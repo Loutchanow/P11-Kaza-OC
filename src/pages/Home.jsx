@@ -10,10 +10,7 @@ const Home = () => {
 
   return (
     <div>
-      <Banner>
-        <img src={banner} alt="banner" />
-        <h1>Chez vous, partout et ailleurs</h1>
-      </Banner>
+      <Banner src={banner} title="Chez vous, partout et ailleurs" />
       <ListOfCart />
       <Footer />
     </div>

@@ -1,3 +1,19 @@
-body {
-  color: #FF6060;
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=GlobalStyle.css.map */

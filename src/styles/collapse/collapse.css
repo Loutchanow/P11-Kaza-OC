@@ -1,0 +1,40 @@
+.collapse {
+  margin: auto;
+  margin-bottom: 2rem;
+  width: 80%;
+}
+
+.header {
+  background-color: #ff6060;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  z-index: 1;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.content {
+  background-color: #F6F6F6;
+  margin-top: -3px;
+  z-index: -2;
+  transition: max-height 0.3s ease-in-out;
+  overflow: hidden;
+  max-height: 0;
+  padding: 10px;
+}
+.content p {
+  color: #ff6060;
+  font-size: 18px;
+}
+
+.checked {
+  font-size: 20px;
+  margin-right: 1rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.open .checked {
+  transform: rotate(180deg);
+}/*# sourceMappingURL=collapse.css.map */
