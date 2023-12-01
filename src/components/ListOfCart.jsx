@@ -11,11 +11,7 @@ const ListOfCart = () => {
       <div className="carts">
             {data.map((item) => {
               return (
-                <div key={item.id} className="cart" onClick={() => {
-                  navigate(`/${item.title}`);
-                }
-              }
-              >
+            <div key={item.id} className="cart" onClick={() => {navigate(`/${item.id}`)}}>
               <img src={item.cover} alt="cover" className='cartImage' />
               <h2>{item.title}</h2>
             </div>

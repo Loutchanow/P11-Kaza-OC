@@ -1,0 +1,17 @@
+.error * {
+  color: #FF6060;
+  padding: 5rem;
+}
+
+.error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.error h1 {
+  font-size: 200px;
+}
+.error h2 {
+  font-size: 30px;
+}/*# sourceMappingURL=error.css.map */

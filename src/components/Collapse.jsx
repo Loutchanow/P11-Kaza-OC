@@ -12,7 +12,7 @@ const Collapse = ({ title, content }) => {
     <div className={`collapse ${isClosed ? 'closed' : 'open'}`}>
       <div className="header" onClick={handleToggle}>
         <span className="title">{title}</span>
-        <span className="checked">&#x2714;</span>
+        <span className="checked">^</span>
       </div>
       {!isClosed && (
         <div className="content">

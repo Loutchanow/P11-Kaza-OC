@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from '../components/Footer';
 import Banner from '../components/Banner';
 import banner from '../assets/banner2.png'
 import Collapse from '../components/Collapse';
@@ -23,7 +22,6 @@ const About = () => {
           <Collapse key={item.adjectif} title={item.adjectif} content={item.description} />
         )
       })}
-      <Footer />
     </div>
   );
 };

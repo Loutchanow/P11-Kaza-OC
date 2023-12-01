@@ -1,20 +1,14 @@
-import React from "react";
-import { useParams } from "react-router-dom";
-import data from '../assets/data.json';
+import React from 'react';
+import Caroussel from './Caroussel';
+import Info from './Info';
 
-
-function CartId() {
-  const { title } = useParams();
-  const selectedCart = data.find(cart => cart.title === title)
+const CartId = ({selectedCart}) => {
   return (
-    <div>
-      <div>
-        <h1>{selectedCart.title}</h1>
-        <img src={selectedCart.cover} alt="cover" className='cartImage' />
-        <p>{selectedCart.cover}</p>
-      </div>
+    <div className='wrapperInfo'>
+      <Caroussel image={selectedCart}/>
+      <Info info={selectedCart}/>
     </div>
   );
-}
+};
 
 export default CartId;

@@ -5,7 +5,8 @@ import Home from './pages/Home.jsx'
 import Error from './pages/Error.jsx'
 import { BrowserRouter, Route, Routes  } from 'react-router-dom'
 import Header from './components/Header.jsx'
-import CartId from './components/CartId.jsx'
+import CartIdWrapper from './pages/CartIdWrapper.jsx'
+import Footer from './components/Footer.jsx'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,10 +16,11 @@ root.render(
     <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/:title" element={<CartId />} />
+        <Route path="/:id" element={<CartIdWrapper />} />
         <Route path="/about" element={<About />} />
-        <Route path="/*" element={<Error />} />
+        <Route path="/error" element={<Error />} />
      </Routes>
+    <Footer />
     </BrowserRouter>
   </React.StrictMode>
 );

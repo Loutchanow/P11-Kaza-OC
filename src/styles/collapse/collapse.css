@@ -1,3 +1,17 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  50% {
+    opacity: 0.3;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .collapse {
   margin: auto;
   margin-bottom: 2rem;
@@ -10,18 +24,20 @@
   color: #fff;
   padding: 10px;
   display: flex;
-  z-index: 1;
   justify-content: space-between;
   cursor: pointer;
 }
 
 .content {
   background-color: #F6F6F6;
-  margin-top: -3px;
-  z-index: -2;
-  transition: max-height 0.3s ease-in-out;
+  margin-top: -2px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
   overflow: hidden;
-  max-height: 0;
+  transition: height 200ms;
+  opacity: 0;
+  transform: translateY(-50px);
+  animation: fadeIn 0.2s ease-in-out 0.2s forwards;
   padding: 10px;
 }
 .content p {
@@ -29,9 +45,14 @@
   font-size: 18px;
 }
 
+.open .content {
+  max-height: 500px;
+}
+
 .checked {
-  font-size: 20px;
+  font-size: 25px;
   margin-right: 1rem;
+  font-weight: bold;
   transition: transform 0.3s ease-in-out;
 }
 
