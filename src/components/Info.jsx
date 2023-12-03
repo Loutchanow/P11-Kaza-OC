@@ -1,11 +1,24 @@
 import React from 'react';
 import '../styles/info/info.scss'
+import InfoProfil from './InfoProfil';
+import InfoTitle from './InfoTitle';
+import InfoDescription from './InfoDescription';
+import InfoRate from './InfoRate';
 
 const Info = ({info}) => {
   return (
-    <div>
-      <h1>{info.title}</h1>
-    </div>
+    <main className='allInfo'>
+      <div className='infoBasic'>
+        <InfoTitle title={info.title} location={info.location}/>
+        <InfoProfil infoprofil={info.host}/>
+      </div>
+      <div className='infoRate'>
+        <InfoRate tags={info.tags} rating={info.rating}/>
+      </div>
+      <div className='infoDescription'>
+        <InfoDescription description={info.description} equipments={info.equipments}/>
+      </div>
+    </main>
   );
 };
 

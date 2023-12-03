@@ -1,0 +1,17 @@
+.banner {
+  border-radius: 20px;
+  height: 200px;
+  overflow: hidden;
+  margin: 1rem 3rem;
+  position: relative;
+  background-color: black;
+}
+.banner img {
+  width: 100%;
+  margin-top: -20%;
+  min-height: 200%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}/*# sourceMappingURL=caroussel.css.map */

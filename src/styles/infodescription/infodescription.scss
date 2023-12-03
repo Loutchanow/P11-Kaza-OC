@@ -1,0 +1,10 @@
+.infodescription{
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-between;
+  height: fit-content;
+}
+.infodescription > * {
+margin-right: 1rem;
+
+}

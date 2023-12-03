@@ -12,7 +12,7 @@ const Collapse = ({ title, content }) => {
     <div className={`collapse ${isClosed ? 'closed' : 'open'}`}>
       <div className="header" onClick={handleToggle}>
         <span className="title">{title}</span>
-        <span className="checked">^</span>
+        <span className='checked'><i class="fa-solid fa-chevron-up"/></span>
       </div>
       {!isClosed && (
         <div className="content">
@@ -24,3 +24,4 @@ const Collapse = ({ title, content }) => {
 };
 
 export default Collapse;
+
