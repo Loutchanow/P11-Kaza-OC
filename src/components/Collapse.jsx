@@ -7,15 +7,16 @@ const Collapse = ({ title, content }) => {
   const handleToggle = () => {
     setIsClosed(!isClosed);
   };
+  const isOpenClass = isClosed ? 'closed' : 'open'
 
   return (
-    <div className={`collapse ${isClosed ? 'closed' : 'open'}`}>
+    <div className={`collapse ${isOpenClass}`}>
       <div className="header" onClick={handleToggle}>
         <span className="title">{title}</span>
         <span className='checked'><i class="fa-solid fa-chevron-up"/></span>
       </div>
       {!isClosed && (
-        <div className="content">
+        <div className={`content ${isOpenClass}`}>
           <p>{content}</p>
         </div>
       )}

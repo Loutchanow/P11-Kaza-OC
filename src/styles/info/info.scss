@@ -1,5 +1,6 @@
 .allInfo{
   margin: 2rem 3rem;
+  position: relative;
 
   h1, h4, p{
     color: #FF6060;
@@ -8,4 +9,6 @@
 .infoBasic{
   display: flex;
   justify-content: space-between;
+  position: relative;
+
 }

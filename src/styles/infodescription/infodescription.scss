@@ -1,10 +1,11 @@
 .infodescription{
   display: flex;
-  margin-top: 2rem;
+  margin-top: 1rem;
   justify-content: space-between;
-  height: fit-content;
+  min-height: 150px;
 }
 .infodescription > * {
 margin-right: 1rem;
+margin-top: -10px;
 
 }
