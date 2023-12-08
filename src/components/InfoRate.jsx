@@ -1,9 +1,12 @@
 import React from 'react';
 import '../styles/inforate/inforate.scss';
 import InfoTags from './InfoTags';
+import Star from './Star';
 
 
 const InfoRate = ({tags, rating}) => {
+
+
   return (
     <div className='inforate'>
       <div className="infotags"> 
@@ -14,9 +17,7 @@ const InfoRate = ({tags, rating}) => {
         ))}
         </div>
       <div className="div">
-        <p>{rating}</p>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-regular fa-star"></i>
+        <Star rating={rating}/>
       </div>
     </div>
   );

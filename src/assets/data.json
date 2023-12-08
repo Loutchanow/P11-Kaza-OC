@@ -21,7 +21,6 @@
 			"Équipements de base",
 			"Micro-Ondes",
 			"Douche italienne",
-			"Frigo",
 			"WIFI"
 		],
 		"tags": [
@@ -52,7 +51,6 @@
 			"Parking",
 			"Sèche Cheveux",
 			"Machine à laver",
-			"Wi-fi",
 			"Cuisine équipée",
 			"Télévision"
 		],
@@ -110,7 +108,6 @@
 		"location": "Ile de France - Paris 11e",
 		"equipments": [
 			"Micro-Ondes",
-			"Wi-fi",
 			"Chambre Séparée",
 			"Climatisation",
 			"Télévision"
@@ -201,7 +198,6 @@
 		"equipments": [
 			"Salle de bains",
 			"Frigo",
-			"Wi-fi",
 			"Sèche Cheveux",
 			"Bureau",
 			"Parking"
@@ -232,7 +228,6 @@
 		"rating": "5",
 		"location": "Ile de France - Paris 6e",
 		"equipments": [
-			"Wi-fi",
 			"Sèche Cheveux",
 			"Machine à laver",
 			"Parking",
@@ -299,7 +294,6 @@
 			"Chauffage",
 			"Sèche linge",
 			"Sèche Cheveux",
-			"Wi-fi",
 			"Ascenseur"
 		],
 		"tags": [
@@ -359,7 +353,6 @@
 			"Rangements",
 			"Lit",
 			"Sèche Cheveux",
-			"Wi-fi",
 			"TV",
 			"Bouilloire"
 		],
@@ -393,7 +386,6 @@
 			"SDB",
 			"Cuisine équipée",
 			"Toilettes sèches",
-			"Frigo",
 			"Bouilloire"
 		],
 		"tags": [
@@ -421,11 +413,8 @@
 		"rating": "4",
 		"location": "Ile de France - Arnouville",
 		"equipments": [
-			"SDB",
 			"Cuisine équipée",
-			"Frigo",
 			"Bouilloire",
-			"WIFI",
 			"Télévision",
 			"Cintres",
 			"Équipements de base"
@@ -458,11 +447,6 @@
 			"Bouilloire",
 			"SDB",
 			"Cuisine équipée",
-			"Frigo",
-			"WIFI",
-			"TV",
-			"Cintres",
-			"Four",
 			"Micro-Ondes",
 			"Parking"
 		],
@@ -494,8 +478,6 @@
 			"Baie vitrée",
 			"Télévision",
 			"Four",
-			"Frigo",
-			"Wi-fi",
 			"Micro-Ondes",
 			"Parking"
 		],
@@ -528,7 +510,6 @@
 			"Four",
 			"Frigo",
 			"Hotte",
-			"Wi-fi",
 			"Micro-Ondes"
 		],
 		"tags": [

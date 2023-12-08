@@ -15,7 +15,6 @@ let infos = [
 const About = () => {
   return (
     <div>
-      <h1>about</h1>
       <Banner src={banner} />      
       {infos.map((item)=>{
         return (

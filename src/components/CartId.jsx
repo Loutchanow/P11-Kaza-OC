@@ -6,7 +6,7 @@ import Info from './Info';
 const CartId = ({selectedCart}) => {
   return (
     <div className='wrapperInfo'>
-      <Caroussel image={selectedCart}/>
+      <Caroussel image={selectedCart.pictures}/>
       <Info info={selectedCart}/>
     </div>
   );
