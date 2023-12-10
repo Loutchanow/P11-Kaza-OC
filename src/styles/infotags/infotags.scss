@@ -1,3 +1,5 @@
+@import '../global/GlobalStyle.scss';
+
 .infotags{
   display: flex;
   justify-content: space-between;
@@ -5,11 +7,20 @@
   .tag{
     background-color: #FF6060;
     padding: 0.2rem 2rem;
-    border-radius: 10px;
+    border-radius: 7px;
     margin-right: 1rem;
+    @include phone{
+    padding: 0.2rem 1rem;
+      
+    }
     p{
       color: white;
     }
+  }
+}
+.star{
+  @include phone{
+    padding-bottom: 1rem;
   }
 }
 

@@ -1,7 +1,15 @@
+@import '../global/GlobalStyle.scss';
+
 .inforate{
   display: flex;
   justify-content: space-between;
   margin: 2rem 0rem;
+  @include phone{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 2rem;
+    margin-top: -40px;
+  }
 }
 i{
   color: #FF6060;

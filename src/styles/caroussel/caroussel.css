@@ -1,17 +1,36 @@
-.banner {
-  border-radius: 20px;
-  height: 200px;
-  overflow: hidden;
-  margin: 1rem 3rem;
+.caroussel .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
-  background-color: black;
+  height: 400px;
+  margin: 1rem 3rem;
+  border-radius: 20px;
 }
-.banner img {
+.caroussel .image img {
   width: 100%;
-  margin-top: -20%;
-  min-height: 200%;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
+  border-radius: 20px;
+}
+.caroussel .actionnable {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  bottom: 0;
+  width: 100%;
+  padding: 0 1rem;
+}
+.caroussel .actionnable i {
+  margin-top: -320px;
+  font-size: 5rem;
+  color: white;
+  cursor: pointer;
+}
+.caroussel .actionnable p {
+  color: white;
+  margin: 1rem;
+  font-weight: bold;
 }/*# sourceMappingURL=caroussel.css.map */

@@ -1,0 +1,14 @@
+.infotags {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.infotags .tag {
+  background-color: #FF6060;
+  padding: 0.2rem 2rem;
+  border-radius: 10px;
+  margin-right: 1rem;
+}
+.infotags .tag p {
+  color: white;
+}/*# sourceMappingURL=infotags.css.map */

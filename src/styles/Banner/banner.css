@@ -1,3 +1,23 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .banner {
   border-radius: 20px;
   height: 200px;
@@ -6,21 +26,38 @@
   position: relative;
   background-color: black;
 }
+@media screen and (max-width: 1024px) {
+  .banner {
+    margin: 1rem 1rem;
+  }
+}
 .banner img {
   width: 100%;
   margin-top: -20%;
   min-height: 200%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
   filter: brightness(60%) contrast(100%) grayscale(0%) sepia(0%);
 }
 .banner h1 {
-  font-size: 48px;
+  font-size: 45px;
   color: white;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 1370px) {
+  .banner h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .banner h1 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: ) {
+  .banner h1 {
+    font-size: 20px;
+    transform: translate(-50%, -5%);
+  }
 }/*# sourceMappingURL=banner.css.map */

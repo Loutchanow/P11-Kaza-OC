@@ -1,6 +1,11 @@
+@import '../global/GlobalStyle.scss';
+
 .allInfo{
   margin: 2rem 3rem;
   position: relative;
+  @include phone{
+    margin: 1rem;
+  }
 
   h1, h4, p{
     color: #FF6060;
@@ -10,5 +15,8 @@
   display: flex;
   justify-content: space-between;
   position: relative;
+  @include phone{
+    display: inline;
+  }
 
 }

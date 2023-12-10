@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/infotags/infotags.scss';
 
 
 const InfoTitle = ({title, location}) => {
@@ -11,3 +12,4 @@ const InfoTitle = ({title, location}) => {
 };
 
 export default InfoTitle;
+

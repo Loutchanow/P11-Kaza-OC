@@ -1,3 +1,4 @@
+@import "../global/GlobalStyle.scss";
 
 .banner {
   border-radius: 20px;
@@ -6,20 +7,31 @@
   margin: 1rem 3rem;
   position: relative;
   background-color:black ;
+  @include tablette{
+    margin: 1rem 1rem;
+  }
   img {
     width: 100%;
     margin-top: -20%;
     min-height: 200%;
-    object-fit: cover; 
-    object-position: center; 
     filter: brightness(60%) contrast(100%) grayscale(0%) sepia(0%); 
   }
   h1 {
-    font-size: 48px;
+    font-size: 45px;
     color: white;
     position: absolute; 
     top: 50%; 
     left: 50%; 
     transform: translate(-50%, -50%);
+    @include laptop{
+      font-size: 30px;
+    }
+    @include tablette{
+      font-size: 25px;
+    }
+    @include phone{
+      font-size: 20px;
+      left: 35%;
+    }
   }
 }

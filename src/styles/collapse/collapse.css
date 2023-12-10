@@ -1,25 +1,21 @@
 @keyframes fadeIn {
   from {
-    opacity: 0;
-    transform: translateY(-50px);
-  }
-  50% {
-    opacity: 0.3;
-    transform: translateY(-10px);
+    height: 0px;
   }
   to {
-    opacity: 1;
-    transform: translateY(0);
+    height: 100px;
   }
 }
 .collapse {
   margin: auto;
   margin-bottom: 2rem;
   width: 80%;
+  position: relative;
 }
 
 .header {
   background-color: #ff6060;
+  align-items: center;
   border-radius: 5px;
   color: #fff;
   padding: 10px;
@@ -29,24 +25,21 @@
 }
 
 .content {
+  width: 100%;
   background-color: #F6F6F6;
   margin-top: -2px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   overflow: hidden;
-  transition: height 200ms;
-  opacity: 0;
-  transform: translateY(-50px);
-  animation: fadeIn 0.2s ease-in-out 0.2s forwards;
-  padding: 10px;
+  animation: fadeIn 0.2s ease-in-out forwards;
 }
-.content p {
+.content .text {
+  color: #ff6060;
+  height: 100%;
+  display: flex;
+  align-items: center;
   color: #ff6060;
   font-size: 18px;
-}
-
-.open .content {
-  max-height: 500px;
 }
 
 .checked {
@@ -58,4 +51,8 @@
 
 .open .checked {
   transform: rotate(180deg);
+}
+
+span i {
+  color: #fff;
 }/*# sourceMappingURL=collapse.css.map */

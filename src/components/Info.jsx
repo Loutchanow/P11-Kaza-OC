@@ -9,7 +9,7 @@ const Info = ({info}) => {
   return (
     <main className='allInfo'>
       <div className='infoBasic'>
-        <InfoTitle title={info.title} location={info.location}/>
+        <InfoTitle title={info.title} location={info.location} tag={info.tag}/>
         <InfoProfil infoprofil={info.host}/>
       </div>
       <div className='infoRate'>

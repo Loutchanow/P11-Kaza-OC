@@ -1,0 +1,10 @@
+.infoProfil {
+  display: flex;
+}
+.infoProfil img {
+  border-radius: 50%;
+  height: 70px;
+}
+.infoProfil p {
+  margin: 1rem;
+}/*# sourceMappingURL=infoprofil.css.map */

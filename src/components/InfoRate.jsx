@@ -16,7 +16,7 @@ const InfoRate = ({tags, rating}) => {
         </div>
         ))}
         </div>
-      <div className="div">
+      <div className='star'>
         <Star rating={rating}/>
       </div>
     </div>

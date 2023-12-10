@@ -1,10 +1,19 @@
-.infoProfil{
+@import '../global/GlobalStyle.scss';
+
+.infoProfil {
   display: flex;
-  img{
+  @include phone{
+    right: 200px;
+    margin-left: 70%;
+  }
+  img {
     border-radius: 50%;
     height: 70px;
+    @include phone {
+      height: 45px;
+    }
   }
-  p{
+  p {
     margin: 1rem;
   }
 }

@@ -1,7 +1,12 @@
+@import '../global/GlobalStyle.scss';
+
 .infodescription{
   display: flex;
   margin-top: 1rem;
   justify-content: space-between;
+  @include phone{
+    display: inline;
+  }
 }
 .infodescription > * {
 margin-right: 1rem;

@@ -2,6 +2,8 @@ import React from 'react';
 import Banner from '../components/Banner';
 import banner from '../assets/banner2.png'
 import Collapse from '../components/Collapse';
+import '../styles/about/about.scss'
+
 
 
 let infos = [
@@ -16,11 +18,13 @@ const About = () => {
   return (
     <div>
       <Banner src={banner} />      
+      <div className="allCollapse">
       {infos.map((item)=>{
         return (
-          <Collapse key={item.adjectif} title={item.adjectif} content={item.description} />
-        )
-      })}
+            <Collapse key={item.adjectif} title={item.adjectif} content={item.description} />
+            )
+          })}
+      </div>
     </div>
   );
 };

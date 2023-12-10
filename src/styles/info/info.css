@@ -1,0 +1,13 @@
+.allInfo {
+  margin: 2rem 3rem;
+  position: relative;
+}
+.allInfo h1, .allInfo h4, .allInfo p {
+  color: #FF6060;
+}
+
+.infoBasic {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}/*# sourceMappingURL=info.css.map */

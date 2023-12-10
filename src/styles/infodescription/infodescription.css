@@ -1,0 +1,10 @@
+.infodescription {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: space-between;
+}
+
+.infodescription > * {
+  margin-right: 1rem;
+  margin-top: -10px;
+}/*# sourceMappingURL=infodescription.css.map */
